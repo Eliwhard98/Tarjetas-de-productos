@@ -127,3 +127,17 @@ button{
 .estrella4, .estrella5{
     color: gray;
 }
+
+/*Animacion*/
+
+button, .precio{
+    transition: 0.5s;
+}
+
+.tarjeta:hover button{
+    background-color: black;
+}
+
+.tarjeta:hover .precio{
+    color: black;
+}
