@@ -17,6 +17,7 @@
     height: 530px;
     box-shadow: 3px 15px 20px 1px rgb(0 0 0 / 20%);
     background-color: white;
+    margin: auto;
 }
 
 /*Imagenes*/
@@ -148,9 +149,10 @@ button, .precio{
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
+        
     }
-
+    
     .tarjeta{
-        margin-top: 20px;
+        margin: 20px auto auto auto;
     }
 }
